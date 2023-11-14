@@ -1,0 +1,167 @@
+<head>
+    <link rel="stylesheet" href="tags.css"type="text.css">
+</head>
+
+<body>
+    <div>
+        <img src="/assets/img-example.jpg" width="210" height="260">
+        <video src="/assets/5D_Navisworks.mp4" width="600"height="450" controls autoplay></video>
+        <audio src="/assets/cancion.mp3" autoplay controls></audio>
+        <!-- INSERTAR VÍDEO CON VARIAS FUENTES/SOURCES-->
+        <video width="600" height="450" autoplay controls>
+            <source src="/assets/5D_Navisworks.mp4">
+        </video>
+    </div>
+    
+</body>
+
+<body>
+    <!--FORMULARIO-->
+    <form style="width: fit-content;">
+        <fieldset>
+            <legend>ESTE ES MI PRIMER FORMULARIO CON HTML</legend>
+
+            <label>Name</label>
+            <input type="text"><br>
+
+            <label>Age</label>
+            <input type="text"><br>
+
+            <label>Password</label>
+            <input type="password"><br>
+
+            <label>¿Which is your position?</label>
+            <select name="Position">
+                <option value="1">Architect</option>
+                <option value="2">Engineer</option>
+                <option value="3">Technician</option>
+            </select><br>
+
+            <label>Habilities</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+            <!--BOTÓN PARA ENVIAR (CON FUNCIÓN QUE TODAVÍA NO HEMOS VISTO)-->
+            <button onclick="action()"></button>
+            
+        </fieldset>
+    </form>
+</body>
+
+<body>
+    <!-- LOREM IPSUM PARA FRASES EN LATÍN ALEATORIAS DE PRUEBA -->
+    <div>
+        <span>
+            <p>This is the first paragraph</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </span>
+        <span> Read the following paragraph: <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat odit, molestias excepturi aliquam accusamus ratione aliquid ea quisquam sed laboriosam, hic odio suscipit repellat. Reprehenderit, fugit! Dolore, vel repellat!</blockquote></span>
+    </div>
+    
+    <!-- LISTAS DESORDENADAS Y ORDENADAS DENTRO DE UN SEPARADOR (CON hr)-->
+    <hr>
+    <div>
+        <ul>
+            <li>First element</li>
+            <li>Second element</li>
+            <li>Third element</li>
+        </ul>
+        <ol>
+            <li>First organized element</li>
+            <li>Second organized element</li>
+            <li>Third organized element</li>
+        </ol>
+        <!-- ESTO ES UNA NOTACIÓN EMMET: CREAR LISTA AUTOMÁTICAMENTE-->
+        <ol><li>Elemento 1A</li>
+        <li>Elemento 2A</li>
+        <li>Elemento 3A</li></ol>
+    </div>
+    <hr>
+    <div>
+        <dl>
+            <dt>HTML</dt><dd>Qué es lo que se muestra</dd>
+            <dt>CSS</dt><dd>Cómo se muestra</dd>
+            <dt>JavaScript</dt><dd>Interacciones y mucho más del contenido de la web</dd>
+        </dl>
+    </div>
+</body>
+
+<body>
+    <div>
+        <!--CREAR TABLA-->
+        <table style="height: 80%; width: 50%;">
+            <caption>ESTA ES MI PRIMERA TABLA UTILIZANDO HTML</caption>
+            
+            <!--<colgroup span="1" style="background: lightpink"> </colgroup>-->
+            <!--<colgroup span="3" style="background: lightseagreen"> </colgroup>-->
+
+            <thead style="background:lightcoral">
+                <tr align="center">
+                    <th></th>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>JS</th>
+                </tr>
+            </thead>
+
+            <tbody style="background:lightyellow">
+                <tr>
+                    <th>Etiquetas</th>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <th>Estilo</th>
+                    <td colspan="3">Si</td>
+
+                </tr>
+                <tr>
+                    <th>Modifica</th>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>Si</td>
+                </tr>
+            </tbody>
+
+            <tfoot style="background:lightseagreen">
+                <tr>
+                    <th>Total</th>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+<body>
+    <div>
+        <!-- ESCRIBIR TEXTOS Y SALTOS DE PÁGINA -->
+        <span style="color:blueviolet" >You can always find a way out in difficulty</span>
+        <span style="color:blueviolet" >We are learning everyday <br>Esto es un salto de línea</span>
+        <br><span style="color:blueviolet" >We are learning everyday + salto de línea
+
+        <!-- HIPERVÍNCULOS -->
+        <a href="https://www.google.com/">This is my web page</a>
+
+        <!-- STRONG PARA EL ***SEO*** -->
+        <span>Uno de los insectos más numerosos son las <strong>hormigas</strong> </span>
+    </div>
+
+    <div>
+        <!-- ASTERISCOS E INFORMACIÓN ADICIONAL -->
+        <span>This was written by the writer* <br><small>*The writer is Gloria Fuertes</small></span>
+        <br><span>Dijo Galileo, <cite>"y sin embargo, se mueve"</cite></span>
+        <br><span>La película <cite>Blade Runner</cite></span>
+        
+        <!-- EXPONENTES Y SUBEXPONENTES -->
+        <br><span>x<sup>2</sup>+x<sup>3</sup>= 9</span>
+        <br><span>X <sub>fact</sub></span>
+    </div>
+
+        <!-- HIGHLIGHTEAR TEXTOS -->
+    <div>
+        <span>Son muy importantes las <mark>hormigas</mark> </span>
+    </div>
+</body>
