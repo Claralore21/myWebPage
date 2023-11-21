@@ -1,2 +1,2 @@
 # myWebPage
-Práctica de HTML
+Práctica de HTML + CSS + JavaScript
