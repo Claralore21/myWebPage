@@ -1,0 +1,73 @@
+#toolbar{
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    background: rgb(8, 8, 61);
+    height: 40 px;
+}
+.toolbarElem{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.toolbarElem:hover{
+    color:lightblue;
+    cursor: alias;
+    text-transform: uppercase;
+}
+
+
+body{
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-picture-image_1250295.jpg);
+}
+.p1{
+    background-color: rgba(255,255,255,0.3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.p2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    color: lightgreen;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 500px;
+}
+
+table{
+    border: 1px solid;
+    position: relative;
+    float: right;
+    top: 100px;
+    width: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-small;
+    text-align: left;
+    color: white;
+}
+
+form{
+    position: relative;
+    float: left;
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-small;
+    color: white;
+}
+
+#content{
+    position: relative;
+    top: 70px;
+}
