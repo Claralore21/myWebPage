@@ -1,20 +1,30 @@
-
+<!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" href="myWebPageStyles.css"type="text/css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='myWebPageStyles.css'>
+    
 </head>
 
-
 <body>
-    <div id="toolbar">
-        <a href="https://www.google.com/" class="toolbarElem">Home</a>
-        <a href="https://www.google.com/" class="toolbarElem">About me</a>
-        <a href="https://www.google.com/" class="toolbarElem">Scripts</a>
-        <a href="https://www.google.com/" class="toolbarElem">Contact</a>
+    <div class="toolbar">
+        <span id="myAnimals">Animal Quiz</span>
+        <span onclick="changeAnimal(cow)">Vaca</span>
+        <span onclick="changeAnimal(cocodrile)">Cocodrilo</span>
+        <span onclick="changeAnimal(lion)">León</span>
+        <span onclick="changeAnimal(chicken)">Gallina</span>
     </div>
+    <div id="div1"><span>¡Elige el animal sobre el que vamos a preguntarte!</span></div>
+    
+    <script src='myWebPage.js'></script>
 
     <!--1.INTRODUCCIÓN-->
     <div>
-        <p class="p1"> <span> HELLO! Welcome to the <cite>BIM coding paradise!</cite></span><br>
+        <p class="p1"> <span> HELLO!!! Welcome to the <cite>BIM coding paradise!</cite></span><br>
         <span> My name is Clara Lorenzo Asuar, I am an architect specialized in <strong>Building Information Modelling</strong></span><br>
         <span> Click on the link below to visit my LinkedIn profile:</span><br>
         <a href="https://www.linkedin.com/in/clara-lorenzo-asuar-469966174/">This is my web page</a><br>
@@ -28,8 +38,8 @@
             </ol>
         </p>
 
-        <img id="foto" src="/assets/profile.jpg">
-        <img id="imagen" src="/assets/dynamo.png">
+        <img id="foto" src="C:\Users\clara\myWebPage\assets\profile.jpg">
+        <img id="imagen" src="C:\Users\clara\myWebPage\assets\dynamo.png">
 
     <!--2.TABLA-->
     <table>
@@ -112,4 +122,8 @@
             <button onclick="action()"></button>
         </fieldset>
     </form>
+  
+
 </body>
+
+</html>

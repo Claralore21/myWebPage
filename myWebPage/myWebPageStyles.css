@@ -1,19 +1,33 @@
-#toolbar{
-    display:flex;
-    flex-direction: row;
-    width: 100vw;
+
+
+#div1{
+    height: 20vh;
+    display: flex;
     justify-content: space-around;
-    background: rgb(72, 72, 72);
-    height: 40 px;
+    align-items: center;
 }
-.toolbarElem{
+
+.toolbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(72, 72, 72);
+    height: 40px;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
 }
-.toolbarElem:hover{
-    color:rgb(255, 225, 230);
-    cursor: alias;
-    text-transform: uppercase;
+
+#myAnimals{
+    font-size: x-large;
+    color: chartreuse;
+}
+
+.infoButton{
+    height: 10vh;
+    width: 25vh;
+    background-color: white;
+    border-radius: 15%;
 }
 
 #foto{

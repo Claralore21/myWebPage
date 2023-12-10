@@ -16,7 +16,7 @@ let chicken =  new Animal("Gallina", 10, true, ["Ave", "Omnívoro", "Doméstico"
 
     
 function changeAnimal(animal) {
-    document.getElementById("div1").innerHTML = "myWebPage.html";
+    document.getElementById("div1").innerHTML = "";
     for (let i = 0; i < buttons.length; i++) {
         document.getElementById("div1").innerHTML += "<button class='infoButton' id='button" + i + "'>" +buttons[i]+"</button>"; 
     }
@@ -64,3 +64,9 @@ function displayInfo(buttonNumber, element){
     }
     
 }
+
+
+
+
+
+
