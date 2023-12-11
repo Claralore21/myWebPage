@@ -1,67 +1,81 @@
-#toolbar{
-    display:flex;
-    flex-direction: row;
-    width: 100vw;
+#div1{
+    height: 30vh;
+    display: flex;
     justify-content: space-around;
-    background: rgb(72, 72, 72);
-    height: 40 px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.toolbarElem{
+ 
+.toolbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(72, 72, 72);
+    height: 40px;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
 }
-.toolbarElem:hover{
-    color:rgb(255, 225, 230);
-    cursor: alias;
-    text-transform: uppercase;
+ 
+#myIcon{
+    font-size: x-large;
+    color: white;
 }
-
+ 
+.infoButton{
+    height: 20vh;
+    width: 20vh;
+    background-color: white;
+    border-radius: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
 #foto{
     display: block;
     margin-left: 50px;
     width: 200;
 }
-
+ 
 #imagen{
     position: fixed;
     margin-left: 300;
     top: 200;
     width: 600;
 }
-
+ 
 body{
-    background-image: url(https://images.vexels.com/content/76625/preview/white-seamless-background-db36bd.png);
+    background-image: url(https: //images .vexels .com/content/ 76625px /preview/white seamless background db 36bd .png);
 }
 .p1{
     background-color: rgba(255,255,255,0.3);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
+    line-height: 20px;
     color: rgb(37, 37, 37);
     display: flex;
     width: 100%;
+    height: 80px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
 }
-
+ 
 .p2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: smaller;
     color: rgb(37, 37, 37);
-    display: block;
+    display: flex;
     margin-left: 50px;
     width: 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
     top: 425px;
 }
-
+ 
 table{
     border: 1px solid;
-    position: fixed;
+    position: flex;
     top: 450px;
     left: 300;
     width: 600px;
@@ -70,9 +84,9 @@ table{
     text-align: left;
     color: rgb(37, 37, 37);
 }
-
+ 
 form{
-    position: fixed;
+    position: flex;
     width: fit-content;
     left: 950;
     top: 300;
@@ -80,7 +94,7 @@ form{
     font-size: xx-small;
     color: rgb(37, 37, 37);
 }
-
+ 
 #content{
     position: relative;
     top: 70px;
