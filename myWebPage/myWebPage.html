@@ -9,27 +9,28 @@
     <link rel='stylesheet' type='text/css' media='screen' href='myWebPageStyles.css'>
     
 </head>
-
+ 
 <body>
     <div class="toolbar">
-        <span id="myAnimals">Animal Quiz</span>
-        <span onclick="changeAnimal(cow)">Vaca</span>
-        <span onclick="changeAnimal(cocodrile)">Cocodrilo</span>
-        <span onclick="changeAnimal(lion)">León</span>
-        <span onclick="changeAnimal(chicken)">Gallina</span>
-    </div>
-    <div id="div1"><span>¡Elige el animal sobre el que vamos a preguntarte!</span></div>
+        <span id="myIcon">My BIM Web Page</span>
+        <span onclick="changeText(bim)">BIM</span>
+        <span onclick="changeText(ar)">Augmented Reality</span>
+        <span onclick="changeText(programming)">Programming</span>
+        <span onclick="changeText(ai)">Artificial Intelligence</span>
+    </div><br>
+    
+    <div id="div1"><span>Click on the toolbar to see the content!</span></div>
     
     <script src='myWebPage.js'></script>
-
+ 
     <!--1.INTRODUCCIÓN-->
     <div>
         <p class="p1"> <span> HELLO!!! Welcome to the <cite>BIM coding paradise!</cite></span><br>
         <span> My name is Clara Lorenzo Asuar, I am an architect specialized in <strong>Building Information Modelling</strong></span><br>
         <span> Click on the link below to visit my LinkedIn profile:</span><br>
-        <a href="https://www.linkedin.com/in/clara-lorenzo-asuar-469966174/">This is my web page</a><br>
+        <a href=https://www.linkedin.com/in/clara-lorenzo-asuar-469966174/ [linkedin.com]>This is my LinkedIn</a><br>
         <span>David Vivancos said, <cite>"Automate or be automated"</cite></span><br></p>
-
+ 
         <p class="p2"> My challenges
             <ol class="p2">
                 <li>Automate repetitive tasks</li>
@@ -38,13 +39,13 @@
             </ol>
         </p>
 
-        <img id="foto" src="C:\Users\clara\myWebPage\assets\profile.jpg">
-        <img id="imagen" src="C:\Users\clara\myWebPage\assets\dynamo.png">
+        <img id="foto" src= "assets/profile.jpg">
+        <img id="imagen" src="assets/dynamo.png">
 
     <!--2.TABLA-->
     <table>
         <caption>THIS IS WHAT I DO</caption>
-
+ 
         <thead>
             <tr>
                 <th></th>
@@ -53,7 +54,7 @@
                 <th>Use of Python</th>
             </tr>
         </thead>
-
+ 
         <tbody>
             <tr>
                 <th>SCRIPT 1</th>
@@ -74,7 +75,7 @@
                 <td>Yes</td>
             </tr>
         </tbody>
-
+ 
         <tfoot>
             <tr>
                 <th>SCRIPT 4</th>
@@ -84,26 +85,24 @@
             </tr>
         </tfoot>
     </table><br>
-
-    <!--
-    <video src="/assets/5D_Navisworks.mp4" width="600"height="450" controls autoplay></video>
-    <audio src="/assets/cancion.mp3" autoplay controls></audio>
-    -->
-
-    <!--4.FORMULARIO-->
+ 
+    <!--4.VÍDEO-->
+    <iframe id="video" src="https://www.youtube.com/embed/LRTOUqLmuAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+    <!--5.FORMULARIO-->
     <form style="width: fit-content;">
         <fieldset>
             <legend>Do you want to work with me?</legend>
-
+ 
             <label>Name</label>
             <input type="text"><br>
-
+ 
             <label>Mail</label>
             <input type="text"><br>            
-
+ 
             <label>Password</label>
             <input type="password"><br>
-
+ 
             <label>¿Which is your background?</label>
             <select name="Position">
                 <option value="1">Architect</option>
@@ -111,19 +110,18 @@
                 <option value="3">Software developer</option>
                 <option value="3">Technician</option>
             </select><br>
-
+ 
             <label>Habilities</label><br>
             <textarea name="" id="" cols="30" rows="2"></textarea><br>
-
+ 
             <label>You can share your LinkedIn profile</label><br>
             <input type="text"><br>
-
+ 
             <!--BOTÓN PARA ENVIAR (CON FUNCIÓN QUE TODAVÍA NO HEMOS VISTO)-->
             <button onclick="action()"></button>
         </fieldset>
     </form>
   
-
 </body>
-
+ 
 </html>
