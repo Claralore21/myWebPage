@@ -10,7 +10,7 @@ class Text{
  
 let buttons = ["What is it?", "Year of origin", "Which advantages does it have?", "Is it beign implemented in Europe?"];
 let bim = new Text("Methodology for the digitalization of the construction industry", 1950, ["a","b","c"], false);
-let construction = new Text("Process in which buildings are materialized", 1920, ["a","b","c"], false);
+let ar = new Text("Process in which buildings are materialized", 1920, ["a","b","c"], false);
 let programming =  new Text("Discipline to create programs that helps human beigns and machines", 1930, ["a","b","c"], true);
 let ai =  new Text("Technology that drives the evolution of machines", 1910, ["a","b","c"], true);
  
