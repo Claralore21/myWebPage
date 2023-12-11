@@ -6,5 +6,3 @@
         this.challenges = challenges;
     }
 }*/
-
-export const numero = 10;

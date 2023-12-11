@@ -1,4 +1,7 @@
-/* App sobre clasificación de animales*/
+/* App con botones*/
+
+/*  Se ha intentado la importación de la clase
+import {Text} from "./class.js";*/
 
 class Text{
     constructor(name, year, advantages, challenges){
