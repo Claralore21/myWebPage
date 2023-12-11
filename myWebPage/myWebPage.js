@@ -15,7 +15,9 @@ let programming =  new Text("Discipline to create programs that helps human beig
 let ai =  new Text("Technology that drives the evolution of machines", 1910, ["a","b","c"], true);
  
     
+
 function changeText(concept) {
+
     document.getElementById("div1").innerHTML = "";
     for (let i = 0; i < buttons.length; i++) {
         document.getElementById("div1").innerHTML += "<button class='infoButton' id='button" + i + "'>" +buttons[i]+"</button>"; 
@@ -64,3 +66,5 @@ function displayInfo(buttonNumber, element){
             document.getElementById('button3').innerHTML = 'NO';
         }
     }
+
+}
